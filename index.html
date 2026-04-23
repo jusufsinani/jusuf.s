@@ -1,0 +1,49 @@
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <form action="index1.html" onsubmit="return validimi()">
+            <div>
+                <label for="emri">Emri:</label>
+                <input type="text" id="emri" placeholder="Shkruaj Emrin">
+                <span id="emriError" class="error"></span>
+            </div>
+            <br>
+            <div>
+                <label for="mbiemri">Mbiemri:</label>
+                <input type="text" id="mbiemri" placeholder="Shkruaj Mbiemrin">
+                <span id="mbiemriError" class="error"></span>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Shkruaj Email-in">
+                <span id="emailError" class="error"></span>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Shkruaj Password-in">
+                <span id="passwordError" class="error"></span>
+            </div>
+            <br>
+            <div>
+                <label for="mosha">Mosha:</label>
+                <input type="number" id="mosha" placeholder="Shkruaj Moshën">
+                <span id="moshaError" class="error"></span>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Regjistrohu</button>
+                <span id="error" class="error"></span>
+            </div>
+        </form>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
